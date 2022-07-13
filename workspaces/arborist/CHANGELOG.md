@@ -1,5 +1,12 @@
 # Changelog
 
+## [6.1.0](https://github.com/samkenxstream/turnkey-triumph-326606_npm-cli/compare/arborist-v6.0.0...arborist-v6.1.0) (2022-07-12)
+
+
+### Features
+
+* **arborist:** add support for dependencies script ([#5094](https://github.com/samkenxstream/turnkey-triumph-326606_npm-cli/issues/5094)) ([e9b4214](https://github.com/samkenxstream/turnkey-triumph-326606_npm-cli/commit/e9b4214e1ddb1ad79fe6826cf2ce7ba385f0c274))
+
 ## [6.0.0](https://github.com/samkenxstream/turnkey-triumph-326606_cultivated-card-306821_gold-fiber-346123_cli/compare/arborist-v5.2.3...arborist-v6.0.0) (2022-07-03)
 
 

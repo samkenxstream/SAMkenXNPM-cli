@@ -1,5 +1,43 @@
 # Changelog
 
+## [9.5.1](https://github.com/npm/cli/compare/v9.5.0...v9.5.1) (2023-02-22)
+
+### Documentation
+
+* [`9bc455b`](https://github.com/npm/cli/commit/9bc455bc2c0f247ff4ca2e1fd299063008b4e260) [#6188](https://github.com/npm/cli/pull/6188) fixing typos (#6188) (@deining)
+* [`ec8c95c`](https://github.com/npm/cli/commit/ec8c95c2ab2de71a18e291b4f65ebb87c6ace1e8) [#6186](https://github.com/npm/cli/pull/6186) update OSI link (#6186) (@roerohan)
+
+### Dependencies
+
+* [`7ba3e17`](https://github.com/npm/cli/commit/7ba3e17087e13d737103260f10e671befc6ce256) [#6189](https://github.com/npm/cli/pull/6189) npm update
+* [`f7a5200`](https://github.com/npm/cli/commit/f7a520072f3dcafd9391e5e27f3ceef8e59e95dc) `pacote@15.1.1`
+* [Workspace](https://github.com/npm/cli/releases/tag/arborist-v6.2.3): `@npmcli/arborist@6.2.3`
+* [Workspace](https://github.com/npm/cli/releases/tag/libnpmdiff-v5.0.11): `libnpmdiff@5.0.11`
+* [Workspace](https://github.com/npm/cli/releases/tag/libnpmexec-v5.0.11): `libnpmexec@5.0.11`
+* [Workspace](https://github.com/npm/cli/releases/tag/libnpmfund-v4.0.11): `libnpmfund@4.0.11`
+* [Workspace](https://github.com/npm/cli/releases/tag/libnpmpack-v5.0.11): `libnpmpack@5.0.11`
+
+## [9.5.0](https://github.com/npm/cli/compare/v9.4.2...v9.5.0) (2023-02-14)
+
+### Features
+
+* [`79bfd03`](https://github.com/npm/cli/commit/79bfd03947a25f4bfb67d1c54893be7c79ec77e2) [#6153](https://github.com/npm/cli/pull/6153) audit signatures verifies attestations (@feelepxyz)
+* [`5fc6473`](https://github.com/npm/cli/commit/5fc647316cdc07d4337cdf1b75f73a0663822c7f) add provenance attestation (@bdehamer)
+
+### Bug Fixes
+
+* [`53f75a4`](https://github.com/npm/cli/commit/53f75a4faeac02b97cfac91309a7f9f4efe553a0) [#6158](https://github.com/npm/cli/pull/6158) gracefully fallback from auth-type=web (#6158) (@MylesBorins)
+* [`ed59aae`](https://github.com/npm/cli/commit/ed59aae51cc55f57ee32d43e898ef05236005a09) [#6162](https://github.com/npm/cli/pull/6162) refactor error reporting in audit command (@bdehamer)
+
+### Dependencies
+
+* [`fad0473`](https://github.com/npm/cli/commit/fad04737d7b0d1e3a8cd3d3a651e90db6b185f7b) `minipass@4.0.3`
+* [`678c6bf`](https://github.com/npm/cli/commit/678c6bf716012fd834c06644ed1a82e10a5393ad) `minimatch@6.2.0`
+* [`9b4b366`](https://github.com/npm/cli/commit/9b4b366af5dac21b6db5d722d30b7e1fff064600) `ci-info@3.8.0`
+* [`d20ee2a`](https://github.com/npm/cli/commit/d20ee2afa0b9c97ed6822cb8e6838ba537dd76a9) `pacote@15.1.0`
+* [Workspace](https://github.com/npm/cli/releases/tag/libnpmpublish-v7.1.0): `libnpmpublish@7.1.0`
+* [Workspace](https://github.com/npm/cli/releases/tag/libnpmteam-v5.0.3): `libnpmteam@5.0.3`
+
 ## [9.4.2](https://github.com/npm/cli/compare/v9.4.1...v9.4.2) (2023-02-07)
 
 ### Bug Fixes

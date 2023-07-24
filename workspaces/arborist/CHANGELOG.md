@@ -1,5 +1,26 @@
 # Changelog
 
+## [6.3.0](https://github.com/npm/cli/compare/arborist-v6.2.10...arborist-v6.3.0) (2023-07-05)
+
+### Features
+
+* [`67459e7`](https://github.com/npm/cli/commit/67459e7b56a5e8d2b4f8eb3a0487183013c63b99) [#6626](https://github.com/npm/cli/pull/6626) add `pkg fix` subcommand (@wraithgar)
+
+### Bug Fixes
+
+* [`c61e037`](https://github.com/npm/cli/commit/c61e0376408240590bfc712fe9fdadd7dc9a48bc) [#6626](https://github.com/npm/cli/pull/6626) use new load/create syntax for package-json (@wraithgar)
+
+### Dependencies
+
+* [`b252164`](https://github.com/npm/cli/commit/b252164dd5c866bf2d25c96836ad829d4d6909ee) [#6626](https://github.com/npm/cli/pull/6626) `@npmcli/package-json@4.0.0`
+
+## [6.2.10](https://github.com/npm/cli/compare/arborist-v6.2.9...arborist-v6.2.10) (2023-06-21)
+
+### Bug Fixes
+
+* [`f5b9713`](https://github.com/npm/cli/commit/f5b97137ee6e0c380f005ebe56d4033e7dc01ac2) [#6549](https://github.com/npm/cli/pull/6549) make omit flags work properly with workspaces (#6549) (@Rayyan98, @lukekarrys)
+* [`40d7e09`](https://github.com/npm/cli/commit/40d7e09aa9c038bc20e37c4fbd21d02dc82b93a7) [#6555](https://github.com/npm/cli/pull/6555) remove unnecessary package.json values (#6555) (@lukekarrys)
+
 ## [6.2.9](https://github.com/npm/cli/compare/arborist-v6.2.8...arborist-v6.2.9) (2023-05-03)
 
 ### Bug Fixes

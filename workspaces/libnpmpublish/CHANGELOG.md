@@ -1,5 +1,27 @@
 # Changelog
 
+## [7.5.0](https://github.com/npm/cli/compare/libnpmpublish-v7.4.0...libnpmpublish-v7.5.0) (2023-07-05)
+
+### Features
+
+* [`5baf6a2`](https://github.com/npm/cli/commit/5baf6a2c6274d9838556617e9ff5b66fe87ede51) [#6613](https://github.com/npm/cli/pull/6613) SLSA 1.0 provenance statement (#6613) (@bdehamer)
+
+## [7.4.0](https://github.com/npm/cli/compare/libnpmpublish-v7.3.0...libnpmpublish-v7.4.0) (2023-06-21)
+
+### Features
+
+* [`7701105`](https://github.com/npm/cli/commit/770110535c07502e30619c3def8f35a522c36427) [#6526](https://github.com/npm/cli/pull/6526) Add GitLab CI provenance (#6375) (#6526) (@wraithgar, @wlynch)
+
+### Bug Fixes
+
+* [`29622c1`](https://github.com/npm/cli/commit/29622c1349b38173924058a1fb0ede9edf8a5f6f) [#6530](https://github.com/npm/cli/pull/6530) public package check in libnpmpublish (#6530) (@bdehamer)
+
+## [7.3.0](https://github.com/npm/cli/compare/libnpmpublish-v7.2.0...libnpmpublish-v7.3.0) (2023-05-31)
+
+### Features
+
+* [`a63a6d8`](https://github.com/npm/cli/commit/a63a6d8d6fd339d504ab94c0364ce7ee3d4e3775) [#6490](https://github.com/npm/cli/pull/6490) add provenanceFile option for libnpmpublish (@bdehamer)
+
 ## [7.2.0](https://github.com/npm/cli/compare/libnpmpublish-v7.1.4...libnpmpublish-v7.2.0) (2023-05-17)
 
 ### Features

@@ -118,6 +118,7 @@ exports[`test/lib/commands/config.js TAP config list --json > output matches sna
   "production": null,
   "progress": true,
   "provenance": false,
+  "provenance-file": null,
   "proxy": null,
   "read-only": false,
   "rebuild-bundle": true,
@@ -160,6 +161,7 @@ exports[`test/lib/commands/config.js TAP config list --json > output matches sna
   "workspaces": null,
   "workspaces-update": true,
   "yes": null,
+  "npm-version": "{NPM-VERSION}",
   "metrics-registry": "https://registry.npmjs.org/"
 }
 `
@@ -255,6 +257,7 @@ message = "%s"
 metrics-registry = "https://registry.npmjs.org/" 
 node-options = null 
 noproxy = [""] 
+npm-version = "{NPM-VERSION}" 
 offline = false 
 omit = [] 
 omit-lockfile-registry-resolved = false 
@@ -274,6 +277,7 @@ preid = ""
 production = null 
 progress = true 
 provenance = false 
+provenance-file = null 
 proxy = null 
 read-only = false 
 rebuild-bundle = true 
@@ -339,6 +343,18 @@ userconfig = "{HOME}/.npmrc"
 `
 
 exports[`test/lib/commands/config.js TAP config list > output matches snapshot 1`] = `
+; "global" config from {GLOBALPREFIX}/npmrc
+
+globalloaded = "yes" 
+
+; "user" config from {HOME}/.npmrc
+
+userloaded = "yes" 
+
+; "project" config from {LOCALPREFIX}/.npmrc
+
+projectloaded = "yes" 
+
 ; "cli" config from command line options
 
 cache = "{NPMDIR}/test/lib/commands/tap-testdir-config-config-list-sandbox/cache" 
@@ -381,6 +397,7 @@ global-prefix = "{LOCALPREFIX}"
 globalconfig = "{GLOBALPREFIX}/npmrc" 
 init-module = "{HOME}/.npm-init.js" 
 local-prefix = "{LOCALPREFIX}" 
+npm-version = "{NPM-VERSION}" 
 ; prefix = "{LOCALPREFIX}" ; overridden by cli
 user-agent = "npm/{NPM-VERSION} node/{NODE-VERSION} {PLATFORM} {ARCH} workspaces/false" 
 ; userconfig = "{HOME}/.npmrc" ; overridden by cli

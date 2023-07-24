@@ -3,7 +3,7 @@ const { join, basename, resolve } = require('path')
 const transformHTML = require('./transform-html.js')
 const { version } = require('../../lib/npm.js')
 const { aliases } = require('../../lib/utils/cmd-list')
-const { shorthands, definitions } = require('../../lib/utils/config/index.js')
+const { shorthands, definitions } = require('@npmcli/config/lib/definitions')
 
 const DOC_EXT = '.md'
 
@@ -42,6 +42,17 @@ const getCommandByDoc = (docFile, docExt) => {
   const srcName = name === 'npx' ? 'exec' : name
   const { params, usage = [''], workspaces } = require(`../../lib/commands/${srcName}`)
   const usagePrefix = name === 'npx' ? 'npx' : `npm ${name}`
+  if (params) {
+    for (const param of params) {
+      if (definitions[param].exclusive) {
+        for (const e of definitions[param].exclusive) {
+          if (!params.includes(e)) {
+            params.splice(params.indexOf(param) + 1, 0, e)
+          }
+        }
+      }
+    }
+  }
 
   return {
     name,

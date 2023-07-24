@@ -1,5 +1,33 @@
 # Changelog
 
+## [6.0.3](https://github.com/npm/cli/compare/libnpmexec-v6.0.2...libnpmexec-v6.0.3) (2023-07-18)
+
+### Bug Fixes
+
+* [`02c7ddb`](https://github.com/npm/cli/commit/02c7ddb4501682c9e84b8c1325638b7db1ca7deb) [#6642](https://github.com/npm/cli/pull/6642) much clearer npx 'canceled' error (#6642) (@rahulio96, @AaronHamilton965)
+
+## [6.0.2](https://github.com/npm/cli/compare/libnpmexec-v6.0.1...libnpmexec-v6.0.2) (2023-07-05)
+
+### Dependencies
+
+* [Workspace](https://github.com/npm/cli/releases/tag/arborist-v6.3.0): `@npmcli/arborist@6.3.0`
+
+## [6.0.1](https://github.com/npm/cli/compare/libnpmexec-v6.0.0...libnpmexec-v6.0.1) (2023-06-21)
+
+### Dependencies
+
+* [Workspace](https://github.com/npm/cli/releases/tag/arborist-v6.2.10): `@npmcli/arborist@6.2.10`
+
+## [6.0.0](https://github.com/npm/cli/compare/libnpmexec-v5.0.17...libnpmexec-v6.0.0) (2023-05-31)
+
+### ⚠️ BREAKING CHANGES
+
+* require passing in chalk instance
+
+### Features
+
+* [`9e7f5ac`](https://github.com/npm/cli/commit/9e7f5ac5caa8a8ad710cc726744dcaadd8efb040) require passing in chalk instance (@lukekarrys)
+
 ## [5.0.17](https://github.com/npm/cli/compare/libnpmexec-v5.0.16...libnpmexec-v5.0.17) (2023-05-03)
 
 ### Dependencies
